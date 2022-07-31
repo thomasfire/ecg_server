@@ -1,0 +1,3 @@
+[submodule "ecglib"]
+	path = ecglib
+	url = git@github.com:thomasfire/ecglib
