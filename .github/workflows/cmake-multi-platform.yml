@@ -47,7 +47,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        submodules: 'true'
+        submodules: recursive
         token: ${{ secrets.PAT_TOKEN }}
 
     - name: Set reusable strings
